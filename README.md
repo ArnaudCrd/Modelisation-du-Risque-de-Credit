@@ -67,7 +67,7 @@ La simulation Monte Carlo sur 100 trajectoires permet de visualiser la dynamique
 - **EAC (rouge)** : coût attendu sur les flux mensuels – reflète le risque sur les remboursements à venir, concentré en début de période.
 - **ECL (vert)** : perte attendue sur encours – pondère l’exposition restante par le risque de défaut.
 
-📌 Ces résultats illustrent l’importance du provisionnement initial IFRS 9, car **le risque est massivement porté au début de vie des crédits**, tant en termes d’exposition que de pertes potentielles.
+Ces résultats illustrent l’importance du provisionnement initial IFRS 9, car **le risque est massivement porté au début de vie des crédits**, tant en termes d’exposition que de pertes potentielles.
 
 ---
 
