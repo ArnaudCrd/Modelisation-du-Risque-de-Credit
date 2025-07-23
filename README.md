@@ -15,8 +15,11 @@ Ce projet est basé sur la compétition [Home Credit Default Risk](https://www.k
 
   - **EAD** : montant restant dû par les clients au moment de leur défaut.
   - **EAC** *(Expected Accrued Cost)* : perte attendue mensuelle sur les flux de remboursement.
+    
     **EAC(t)** = ∑[i in actifs] PD_i(t) × LGD_i × mensualité_i
+    
   - **ECL** *(Expected Credit Loss)* : perte attendue sur l’encours restant si le client fait défaut à l’instant \( t \).
+    
     **ECL(t)** = ∑[i in actifs] PD_i(t) × LGD_i × EAD_i(t)
 
 
