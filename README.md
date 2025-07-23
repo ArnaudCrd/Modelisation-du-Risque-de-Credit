@@ -60,7 +60,7 @@ Ce projet est basé sur la compétition [Home Credit Default Risk](https://www.k
 
 La simulation Monte Carlo sur 100 trajectoires permet de visualiser la dynamique du portefeuille de crédits dans le temps.
 
-![Simulation EAD / EAC / ECL](result_simulation.png)
+![Simulation EAD / EAC / ECL](result_simualtion.png)
 
 🔍 **Lecture des courbes :**
 - **EAD (bleu)** : exposition au moment du défaut – élevée au départ, elle décroît fortement avec l’extinction progressive du portefeuille.
