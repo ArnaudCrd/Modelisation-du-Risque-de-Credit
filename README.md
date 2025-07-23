@@ -56,6 +56,21 @@ Ce projet est basé sur la compétition [Home Credit Default Risk](https://www.k
 
 ---
 
+## 📈 Résultats – Simulation du risque de crédit
+
+La simulation Monte Carlo sur 100 trajectoires permet de visualiser la dynamique du portefeuille de crédits dans le temps.
+
+![Simulation EAD / EAC / ECL](chemin/vers/image.png)
+
+🔍 **Lecture des courbes :**
+- **EAD (bleu)** : exposition au moment du défaut – élevée au départ, elle décroît fortement avec l’extinction progressive du portefeuille.
+- **EAC (rouge)** : coût attendu sur les flux mensuels – reflète le risque sur les remboursements à venir, concentré en début de période.
+- **ECL (vert)** : perte attendue sur encours – pondère l’exposition restante par le risque de défaut.
+
+📌 Ces résultats illustrent l’importance du provisionnement initial IFRS 9, car **le risque est massivement porté au début de vie des crédits**, tant en termes d’exposition que de pertes potentielles.
+
+---
+
 ## 📌 Avertissement
 
 > Ce projet est à but **éducatif** et repose sur des données publiques. Il ne constitue pas un dispositif réglementaire conforme en production bancaire, mais une **preuve de concept pédagogique**.
