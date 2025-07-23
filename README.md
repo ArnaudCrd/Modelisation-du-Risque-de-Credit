@@ -14,10 +14,10 @@ Ce projet est basé sur la compétition [Home Credit Default Risk](https://www.k
 - Appliquer ces estimations pour évaluer le risque global du portefeuille à travers :
 
   - **EAD** : montant restant dû par les clients au moment de leur défaut.
-  - **EAC** *(Expected Accrued Cost)* : perte attendue mensuelle sur les flux de remboursement.  
-    $\text{EAC}_t = \sum_{i \in \text{actifs}} PD_i(t) \cdot LGD_i \cdot \text{mensualité}_i$
+  - **EAC** *(Expected Accrued Cost)* : perte attendue mensuelle sur les flux de remboursement.
+    **EAC(t)** = ∑[i in actifs] PD_i(t) × LGD_i × mensualité_i
   - **ECL** *(Expected Credit Loss)* : perte attendue sur l’encours restant si le client fait défaut à l’instant \( t \).
-    $\text{ECL}_t = \sum_{i \in \text{actifs}} PD_i(t) \cdot LGD_i \cdot EAD_i(t)$
+    **ECL(t)** = ∑[i in actifs] PD_i(t) × LGD_i × EAD_i(t)
 
 
 - Explorer la **dynamique du risque de crédit** via des simulations Monte Carlo.
